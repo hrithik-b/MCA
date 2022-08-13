@@ -9,4 +9,6 @@ sum_ofXY<- sum(x*y)
 n<-length(x)
 
 corr_coeff = (n*sum_ofXY-(sum_x*sum_y))/sqrt((n*sum_xsq-(sum_x^2))*(n*sum_ysq-(sum_y^2)))
+
+plot(x,y)
   
